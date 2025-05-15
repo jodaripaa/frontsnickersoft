@@ -1,5 +1,5 @@
-import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
+import { NextResponse } from "next/server"
 
 // Este middleware es una simulación ya que en un entorno real
 // necesitaríamos verificar tokens JWT o cookies de sesión
