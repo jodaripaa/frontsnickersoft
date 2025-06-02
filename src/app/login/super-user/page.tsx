@@ -51,7 +51,7 @@ export default function SuperUserLogin() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-slate-900 to-slate-800 p-4">
-      <Card className="w-full max-w-md">
+      <Card className="w-full max-w-md bg-white">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Super Usuario</CardTitle>
           <CardDescription className="text-center">Ingrese sus credenciales para acceder al sistema</CardDescription>
@@ -72,7 +72,7 @@ export default function SuperUserLogin() {
               <Label htmlFor="password">Contraseña</Label>
               <Input id="password" name="password" type="password" placeholder="••••••••" required />
             </div>
-            <Button type="submit" className="w-full" disabled={loading}>
+            <Button type="submit" className="w-full bg-blue-500 text-white" disabled={loading}>
               {loading ? "Iniciando sesión..." : "Iniciar Sesión"}
             </Button>
           </form>

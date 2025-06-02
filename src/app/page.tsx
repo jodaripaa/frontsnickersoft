@@ -14,6 +14,12 @@ export default function Home() {
           <Link href="/login/super-user" className="w-full block">
             <Button className="w-full bg-[#2d4a6d] hover:bg-[#1e3a5f] text-white">Super Usuario</Button>
           </Link>
+          <Link href="/login/admin" className="w-full block">
+            <Button className="w-full bg-[#2d4a6d] hover:bg-[#1e3a5f] text-white">Admin</Button>
+          </Link>
+          <Link href="/login/employee" className="w-full block">
+            <Button className="w-full bg-[#2d4a6d] hover:bg-[#1e3a5f] text-white">Colaborador</Button>
+          </Link>
         </div>
       </div>
     </div>
